@@ -51,7 +51,7 @@ private:
 };
 
 int main() {
-    TextProcessor tp("tp t1.in", " tp t2.in", "tp t.out");
+    TextProcessor tp("t1.in", "t2.in", "t.out");
     try {
   tp.process();
     } catch (const std::exception& e) {
